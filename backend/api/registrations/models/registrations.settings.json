@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registrations",
+  "info": {
+    "name": "Registrations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.mainContainer {
+    margin-top: 20px;
+}
+
+.ctaButton {
+    margin-top: 20px;
+}
+
+.inputForm{
+    width: 400px;
+    display: block;
+    margin-top: 25px;
+
+    border-radius: 10px;
+    padding: 10px 20px;
+}
